@@ -22,3 +22,13 @@ If you want to create the package from scratch locally:
     sqrt(var(x))
   }
   ```
+
+
+This `fixed` branch, has a package that passes `check()` with both `my_sd()` and the additional `my_count()` function.
+
+In addition to the edits in `R/my_sd.R`, 
+the following were used to edit `DESCRIPTION`:
+```r
+use_package("tibble")
+use_package("dplyr")
+```
