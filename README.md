@@ -1,3 +1,9 @@
+This `pacakge-doc` branch, illustrates an
+alternate place to define imports with Roxygen `R/ns-package.R`.  The `ns-package.R` file was created with:
+```r
+use_package_doc()
+```
+
 # ns
 
 A toy package to play with namespaces as part of the [Building Tidy Tools](https://github.com/cwickham/genentech-build-tidy-tools) workshop.
@@ -24,11 +30,4 @@ If you want to create the package from scratch locally:
   ```
 
 
-This `fixed` branch, has a package that passes `check()` with both `my_sd()` and the additional `my_count()` function.
 
-In addition to the edits in `R/my_sd.R`, 
-the following were used to edit `DESCRIPTION`:
-```r
-use_package("tibble")
-use_package("dplyr")
-```
